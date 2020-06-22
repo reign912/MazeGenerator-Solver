@@ -1,5 +1,5 @@
-maze
-Create and solve mazes in Python.
+maze-
+Creates and solve mazes in Python.
 
 _Algorithms
 __Creating
@@ -33,5 +33,7 @@ $ pip install .
 
 thats it setting up is done and just go to src/ and can run our main function main.py and 
 can change algos used and maze size respectively in main.py
+
+to run visuals or in simple words how our maze is created and solved in animated form , go to visuals/create or solve/ and run any algorithms you want in cmd : $ python algorithmname.py and you will be able to see the visual
 
 THANK YOU
