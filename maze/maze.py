@@ -33,8 +33,7 @@ class Maze(base.MazeBase):
 
         self.maze = np.zeros((2 * row_count + 1, 2 * col_count + 1, 3), dtype=np.uint8)
 
-        if algorithm == Maze.Create.BACKTRACKING:
-            return self._recursive_backtracking()
+        
         if algorithm == Maze.Create.PRIM:
             return self._prim()
         if algorithm == Maze.Create.KRUSKAL:
