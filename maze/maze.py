@@ -75,8 +75,6 @@ class Maze(base.MazeBase):
 
         self.solution = self.maze.copy()
 
-        if algorithm == Maze.Solve.C:
-            return self._depth_first_search_c(start, end)
         if algorithm == Maze.Solve.DEPTH:
             return self._depth_first_search(start, end)
         if algorithm == Maze.Solve.BREADTH:
